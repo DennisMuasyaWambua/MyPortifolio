@@ -20,10 +20,15 @@ import {
     tesla,
     shopify,
     carrent,
+
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+  import ebiashara from "../assets/company/ebiashara.png";
+  import arronax from "/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/arronaxhome.png";
+  import smartnyumba from "/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/smartnyumba.png";
+  import agritech from"/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/agritech.jpg";
   
   export const navLinks = [
     {
@@ -119,42 +124,17 @@ import {
     {
       title: "Full Stack developer ",
       company_name: "e-Biashara",
-      icon: tesla,
+      icon: ebiashara,
       iconBg: "#E6DEDD",
       date: "September 2020 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and implemented enterprise fintech applications of kenya's largest Supply Chain Financing platforms, driving monthly revenue of Ksh 80 million using(Flutter, Django and AWS ec2)",
+        "Integrated multiple third-party systems with the escrow platform, including Mpesa, increasing revenue by 23% in the first quarter.",
+        "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary licenses using Django rest framework, AWS lambda, and other AWS cloud technologies that serve millions of license requests daily.",
+        "Automated and optimized business logic for the core marketing experiments, including A/B, Auto-Targeting, and Multivariate Testing.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -186,33 +166,33 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Arronax",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based and mobile based platform that allows users to view local Kenyan content of their liking.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Aws, Redis, Celery",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Django Rest Framework",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: arronax,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.ebiashara.arronaxsandbox.arronaxMediaAppTest&pcampaignid=web_share",
     },
     {
-      name: "Job IT",
+      name: "Smart nyumba",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A mobile  application that makes property management to be hassle free, from colleting rent, on boarding tenants to paying staff all at the palm of your hands",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
@@ -220,33 +200,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Mpesa Daraja API",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: smartnyumba,
+      source_code_link: "https://github.com/DennisMuasyaWambua/Smart_Nyumba_Mobile_App.git",
     },
     {
-      name: "Trip Guide",
+      name: "Smart farmer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An AI model that recommends crops to plant to farmers based on the nutritional profile, soil ph, ambient temperature, soil humidity and predicted rainfall this helps in allowing farmers to efficinetly plan for planting  ",
       tags: [
         {
-          name: "nextjs",
+          name: "xgboost, pandas",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Fast API",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "AWS EC2",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: agritech,
+      source_code_link: "https://github.com/DennisMuasyaWambua/farmer.git",
     },
   ];
   
