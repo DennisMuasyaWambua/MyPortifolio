@@ -26,9 +26,9 @@ import {
     threejs,
   } from "../assets";
   import ebiashara from "../assets/company/ebiashara.png";
-  import arronax from "/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/arronaxhome.png";
-  import smartnyumba from "/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/smartnyumba.png";
-  import agritech from"/home/dennis/Desktop/projects/3d_portifolio/3d-portifolio/src/assets/agritech.jpg";
+  import arronax from "../assets/arronaxhome.png";
+  import smartnyumba from "../assets/smartnyumba.png";
+  import agritech from"../assets/agritech.jpg";
   
   export const navLinks = [
     {
