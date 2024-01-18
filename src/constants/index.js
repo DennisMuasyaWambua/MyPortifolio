@@ -26,6 +26,8 @@ import {
     threejs,
   } from "../assets";
   import ebiashara from "../assets/company/ebiashara.png";
+  import dawin from "../assets/dawin.jpeg";
+  import freelance from"../assets/freelance.png"
   import arronax from "../assets/arronaxhome.png";
   import smartnyumba from "../assets/smartnyumba.png";
   import agritech from"../assets/agritech.jpg";
@@ -126,12 +128,36 @@ import {
       company_name: "e-Biashara",
       icon: ebiashara,
       iconBg: "#E6DEDD",
-      date: "September 2020 - September 2023",
+      date: "August 2022- ongoing",
       points: [
         "Designed and implemented enterprise fintech applications of kenya's largest Supply Chain Financing platforms, driving monthly revenue of Ksh 80 million using(Flutter, Django and AWS ec2)",
-        "Integrated multiple third-party systems with the escrow platform, including Mpesa, increasing revenue by 23% in the first quarter.",
-        "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary licenses using Django rest framework, AWS lambda, and other AWS cloud technologies that serve millions of license requests daily.",
-        "Automated and optimized business logic for the core marketing experiments, including A/B, Auto-Targeting, and Multivariate Testing.",
+        "Increased sales by 40% from sales worth ksh 2 million monthly through the integration of Artificial intelligent recommender systems on the company’s e-commerce client’s websites",
+        "Increased the company’s customer conversion rate from 20% to 30% through the introduction of personalization features such as custom color schemes and contextualized responses on the company’s flagship products mobile application",
+        "Reduced application shipping time to multiple platforms from one year to 2 months through the utilization of cross platform development development frameworks that allow deployment of applications to multiple platforms from a single code base",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Dawin tours and travel",
+      icon: dawin,
+      iconBg: "#E6DEDD",
+      date: " March 2020 - July 2022",
+      points: [
+        "Increased the company’s SEO ranking to third place from 10th place on google page ranking",
+        "Enhanced the company’s brand awareness through developing the company’s web application that allowed users to make travel bookings on their own in an easy and seamless manner",
+        
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "Freelance",
+      icon: freelance,
+      iconBg: "#E6DEDD",
+      date: " July 2019 – July 2021",
+      points: [
+        "Increased sales for clients by 40% through improving client’s sites SEO ranking",
+        "Increased customer conversion rate for ecommerce clients by 56% through the implementation of recommender engines on their web applications",
+        
       ],
     },
     
